@@ -206,8 +206,8 @@ body, p, h1, h2, h3, h4, h5 {
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
       grid-column-gap: 16px;
-      padding-left: 62px;
-      padding-right: 62px;
+      padding-left: 30px;
+      padding-right: 30px;
    }
 
    .xl-col-auto {grid-column: auto;}

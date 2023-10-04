@@ -1,20 +1,75 @@
 @use '../abstracts/variables' as t;
 
-#main-nav{
-    display: none;
+body{
+    background-color: t.$secondary-color;
+}
+
+
+#info-home{
+    padding: 0;
+}
+
+#info-home h2{
+    font-size: 28px;
+    color: t.$body-text-color;
+}
+
+//button
+
+.button-principles{
+    border: none;
+    background-color: t.$primary-color;
+    color: t.$body-text-color;
+    width: 100%;
+    height: 56px;
+    font-family: t.$heading-font-family;
+    font-size: 23px;
 }
 
 @media screen and (min-width:768px) {
 
-    #main-nav{
-        display: block;
-    }
-
-    #burger-nav{
-        display: none;
+    #image-home{
+        padding: 0;
+        width: 303px;
     }
 
     #info-home{
-        order: -1;
+        text-align: left;
+    }
+
+    #info-home h2{
+        font-size: 55px;
+    }
+
+    #button-home{
+        width: 452px;
+        height: 94px;
+        font-size: 40px;
     }
 }
+
+@media screen and (min-width:1200px){
+    #info-home{
+        order: -1;
+    }
+
+    #info-home h2{
+        font-size: 60px;
+    }
+} 
+
+@media screen and (min-width:1920px){
+    #info-home h2{
+        font-size: 71px;
+    }
+
+    
+    #image-home{
+        width: 460px;
+    }
+
+    #button-home{
+        width: 500px;
+        font-size: 50px;
+    }
+} 
