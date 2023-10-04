@@ -1,0 +1,31 @@
+body {
+  font-family: "Cardo", serif;
+}
+
+h2 {
+  font-family: "Oswald", sans-serif;
+  font-size: 28px;
+  color: #CF0A0A;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
+#main-nav {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  #main-nav {
+    display: block;
+  }
+  #burger-nav {
+    display: none;
+  }
+  #info-home {
+    order: -1;
+  }
+}/*# sourceMappingURL=main.css.map */

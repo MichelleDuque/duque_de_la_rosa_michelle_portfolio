@@ -53,11 +53,11 @@ body, p, h1, h2, h3, h4, h5 {
  .grid-con { 
    display: grid;
    grid-template-columns: repeat(4, minmax(0, 1fr));
-   grid-column-gap: 30px;
+   grid-column-gap: 15px;
    max-width: 1200px;
    margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
+   padding-left: 29px;
+   padding-right: 29px;
 }
 
 /* A keyword indicating that the property contributes nothing to the grid item's placement, indicating auto-placement, an automatic span, or a default span of 1. */
@@ -88,9 +88,9 @@ body, p, h1, h2, h3, h4, h5 {
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-column-gap: 20px;
-      padding-left: 16px;
-      padding-right: 16px;
+      grid-column-gap: 16px;
+      padding-left: 38px;
+      padding-right: 38px;
    }
 
    .m-col-auto {grid-column: auto;}
@@ -147,9 +147,9 @@ body, p, h1, h2, h3, h4, h5 {
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-column-gap: 30px;
-      padding-left: 15px;
-      padding-right: 15px;
+      grid-column-gap: 16px;
+      padding-left: 38px;
+      padding-right: 38px;
    }
 
    .l-col-auto {grid-column: auto;}
@@ -205,9 +205,9 @@ body, p, h1, h2, h3, h4, h5 {
    .grid-con { 
       display: grid; 
       grid-template-columns: repeat(12, minmax(0, 1fr));
-      grid-column-gap: 34px;
-      padding-left: 17px;
-      padding-right: 17px;
+      grid-column-gap: 16px;
+      padding-left: 62px;
+      padding-right: 62px;
    }
 
    .xl-col-auto {grid-column: auto;}
