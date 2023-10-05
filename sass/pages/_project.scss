@@ -1,0 +1,87 @@
+@use '../abstracts/variables' as h;
+
+#title-project{
+    padding: 0;
+}
+
+#image-project{
+    padding: 0;
+}
+
+#buttons-project-box{
+    padding: 0;
+    text-align: center;
+}
+
+.buttons-project{
+    width: 94px;
+    height: 28px;
+    font-size: 17px;
+}
+
+#button-project1{
+    margin-right: 20px;
+}
+
+#text-project p{
+    font-size: 14px;
+    color: h.$body-text-color;
+}
+
+@media screen and (min-width:768px){
+    #title-project h2{
+        font-size: 60px;
+    }
+
+    .buttons-project{
+        width: 214px;
+        height: 63px;
+        font-size: 40px;
+    }
+
+    #text-project p{
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+
+    #project-section div:nth-of-type(3) {
+        order: 3;
+      }
+
+    #title-project h2{
+        font-size: 75px;
+    }
+
+    #image-project{
+        width: 100%;
+    }
+
+
+    #photo-project{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+}
+
+@media screen and (min-width:1920px){
+
+    #title-project h2{
+        font-size: 100px;
+    }
+
+    #text-project p{
+        font-size: 23px;
+    }
+
+    .buttons-project{
+        width: 300px;
+        height: 94px;
+        font-size: 50px;
+    } 
+
+}
