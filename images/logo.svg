@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 458.59 269.7">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #facb0d;
+      }
+
+      .cls-2 {
+        fill: #263b80;
+      }
+
+      .cls-3 {
+        fill: #c8202f;
+      }
+
+      .cls-4 {
+        font-family: Bahnschrift-SemiBold, Bahnschrift;
+        font-size: 200px;
+        font-variation-settings: 'wght' 600, 'wdth' 100;
+        font-weight: 600;
+        letter-spacing: -.07em;
+      }
+    </style>
+  </defs>
+  <text class="cls-4" transform="translate(0 200.38)"><tspan class="cls-1" x="0" y="0">{</tspan><tspan class="cls-2" x="57.07" y="0" xml:space="preserve"> M</tspan><tspan class="cls-3" x="236.64" y="0">D </tspan><tspan class="cls-1" x="391.6" y="0">}</tspan></text>
+</svg>
