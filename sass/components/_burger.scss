@@ -1,0 +1,60 @@
+@use '../abstracts/variables' as b;
+
+#burger-nav{
+    height: 42px;
+    padding: 0;
+}
+
+
+#burger-nav label img{
+    height: 42px;
+    transition: all .7s ease;
+    cursor: pointer;
+    width: 100%;
+}
+
+#burger-nav input, #burger-con{
+    display: none;
+}
+
+#burger-nav input:checked ~ #burger-con {
+    display: block;
+    position: absolute;
+    transform: translateX(-237px);
+    background-color: b.$primary-color;
+    width: 320px;
+}
+
+#burger-nav input:checked ~ label img{
+    transform: rotate(90deg);
+}
+
+
+#burger-nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: b.$heading-font-family;
+    font-size: 20px;
+    color: b.$accent-color;
+}
+
+#burger-nav li a {
+    display: block;
+    text-decoration:none;
+    padding: 15px 0 15px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+#burger-nav li {
+    border-bottom: 1px solid #efefef;
+}
+
+#burger-nav li:first-child {
+    border-top: 1px solid #efefef;
+}
+
+#burger-nav:last-child {
+    margin-bottom: 10px;
+}
