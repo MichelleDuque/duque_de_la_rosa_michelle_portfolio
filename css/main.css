@@ -148,6 +148,10 @@ body {
   background-color: #000000;
 }
 
+.hidden {
+  display: none;
+}
+
 #info-home {
   padding: 0;
 }
