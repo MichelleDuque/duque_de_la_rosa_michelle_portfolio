@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <title>Michelle Duque</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="hidden">Portfolio</h1>
+    <header id="main-header" class="grid-con">
+
+        <nav class="box m-col-start-2 m-col-end-10 l-col-start-2 l-col-end-8 xl-col-start-1 xl-col-end-7" id="main-nav">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">PROJECTS</a></li>
+                <li><a href="#">REEL</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="box col-start-1 col-end-3 m-col-start-10 m-col-end-12 l-col-start-10 l-col-end-12 xl-col-start-11 xl-col-end-13" id="logo-section">
+            <a href="index.html"><img id="image-logo" src="images/logo.svg" alt="Michelle Duque Logo"></a>
+        </div>
+
+        <div class="box col-start-4 col-end-5" id="burger-nav">
+            <h2 class="hidden">Main Navigation</h2>
+            <input type="checkbox" id="hamburger">
+            <label for="hamburger">
+                <img src="images/burger.svg" alt="hamburger menu icon">
+            </label>
+            <div id="burger-con">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">PROJECTS</a></li>
+                    <li><a href="#">REEL</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-project">
+        <section class="grid-con" id="project-section">
+            <h2 class="hidden">Project Section - Michelle Duque</h2>
+            <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10 xl-col-start-3 xl-col-end-11" id="title-project">
+                <h2>REEL</h2>
+            </div>
+            <div class="box col-span-full m-col-start-1 m-col-end-13 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13" id="video-reel">
+                <video controls poster="images/placeholder.png">
+                    <source src="video/room_video.mp4" type="video/mp4">
+                    <source src="video/room_video.mp4" type="video/mp4">
+                    <p>You're using a very old browser, that doesn;t support video playback.</p>
+                </video>
+                <div class="video-controls hidden" id="video-controls">
+                    <button id="play-button">
+                        <i class="fa fa-play-circle-o"></i>
+                    </button>
+                    <button id="pause-button">
+                        <i class="fa fa-pause-circle-o"></i>
+                    </button>
+                    <button id="stop-button">
+                        <i class="fa fa-stop-circle-o"></i>
+                    </button>
+                    <i class="fa fa-volume-up"></i>
+                    <input type="range" id="change-vol" step="0.05" min="0" max="1" value="1">
+                    <button id="full-screen">
+                        <i class="fa fa-arrows-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
