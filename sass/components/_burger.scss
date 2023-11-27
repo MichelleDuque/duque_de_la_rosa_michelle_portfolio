@@ -23,6 +23,7 @@
     transform: translateX(-237px);
     background-color: b.$primary-color;
     width: 320px;
+    z-index:    10;
 }
 
 #burger-nav input:checked ~ label img{
@@ -58,3 +59,6 @@
 #burger-nav:last-child {
     margin-bottom: 10px;
 }
+
+
+
