@@ -1,5 +1,5 @@
 (() => {
-    //Projects Info
+    //Projects Info Hover
 
     const boxImage = document.querySelector(".image-box-project")
     const ImageText = document.querySelector(".project-image-text")
