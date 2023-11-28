@@ -59,13 +59,13 @@
                 <div id="form-boxes">
                     <form method="post" action="sendmail.php">
 
-                        <label for="first_name"  class="hidden">First Name:</label>
-                        <input type="text" name="first_name" id="first_name" placeholder="First Name">
+                        <label for="firstname"  class="hidden">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="First Name">
                     
                     <br><br>
                     
-                        <label for="last_name"  class="hidden">Last Name: </label>
-                        <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+                        <label for="lastname"  class="hidden">Last Name: </label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Last Name">
                     
                         <br><br>
                     
@@ -74,8 +74,8 @@
                     
                         <br><br>
                     
-                        <label for="message" class="hidden">Comments: </label>
-                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                        <label for="comments" class="hidden">Comments: </label>
+                        <textarea name="comments" id="comments" placeholder="Your Message"></textarea>
                     
                         <br><br>
                     

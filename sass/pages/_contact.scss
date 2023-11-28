@@ -54,6 +54,32 @@
     padding-bottom: 20px;
 }
 
+//Pop up
+#popup_window {
+    position: absolute;
+    background: #eaeaea;
+    padding: 30px;
+    width: 350px;
+    line-height: 140%;
+    left: 50%;
+    margin-left: -175px;
+  }
+  #popup_window::after {
+    content: '';
+    width: 40px;
+    height: 40px;
+    background: #eaeaea;
+    position: absolute;
+    display: block;
+    bottom: -20px;
+    transform: rotate(45deg);
+    left: 50%;
+    margin-left: -20px;
+  }
+
+
+
+
 @media screen and (min-width:768px){
     #contact-title h2{
         font-size: 60px;
