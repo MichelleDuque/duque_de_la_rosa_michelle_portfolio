@@ -1,0 +1,158 @@
+@use '../abstracts/variables' as c;
+
+#contact-title{
+    padding: 0;
+}
+
+#contact-title h2{
+    font-size: 31px;
+}
+
+#contact-form{
+    padding: 0;
+    align-self: center;
+   justify-self: center;
+}
+
+#form-boxes form input, #form-boxes form textarea{
+    font-family: c.$heading-font-family;
+    font-size: 15px;
+    width: 270px;
+}
+
+#form-boxes form input{
+    height: 49px;
+}
+
+#form-boxes form textarea{
+    height: 109px;
+}
+
+#button-contact{
+    height: 56px;
+    font-size: 28px;
+}
+
+#contact-info{
+    margin-top: 40px;
+    color:  c.$body-text-color;
+    padding: 0;
+}
+
+#contact-info p{
+    font-size: 14px;
+}
+
+
+#contact-info i{
+    font-size: 30px;
+    padding-right: 10px;
+}
+
+#social-media{
+    padding-top: 13px;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:768px){
+    #contact-title h2{
+        font-size: 60px;
+    }
+
+    #form-boxes form input, #form-boxes form textarea{
+        font-size: 18px;
+        width: 482px;
+    }
+
+
+    #contact-info{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    #contact-info p{
+        font-size: 17px;
+    }
+    #contact-info i{
+        font-size: 35px;
+    }
+
+    #social-media{
+        padding-top: 23px;
+        padding-bottom: 30px;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+
+    #contact-title h2{
+        font-size: 80px;
+    }
+
+    #contact-form{
+        order: 2;
+        margin-bottom: 40px;
+    }
+
+
+    #contact-info{
+        margin: auto;
+        text-align: left;
+        padding-left: 0;
+        padding-right: 37px;
+    }
+
+    #contact-info p{
+        font-size: 17px;
+    }
+
+    #contact-info i{
+        font-size: 40px;
+    }
+
+    
+    #social-media{
+        padding-top: 33px;
+    }
+
+}
+
+@media screen and (min-width:1920px){
+    #contact-title h2{
+        font-size: 120px;
+    }
+
+    #contact-info{
+        padding-right: 200px;
+    }
+
+    #contact-info p{
+        font-size: 30px;
+        line-height: 1.4;
+    }
+
+    #contact-info i{
+        font-size: 50px;
+    }
+
+    #form-boxes form input, #form-boxes form textarea{
+        font-family: c.$heading-font-family;
+        font-size: 30px;
+        width: 816px;
+    }
+
+    #form-boxes form input{
+        height: 83px;
+    }
+    
+    #form-boxes form textarea{
+        height: 184px;
+    }
+
+    #button-contact{
+        height: 94px;
+        font-size: 50px;
+    }
+
+}
