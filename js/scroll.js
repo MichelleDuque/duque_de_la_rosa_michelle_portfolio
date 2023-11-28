@@ -5,24 +5,6 @@
     gsap.registerPlugin(ScrollTrigger);
     
 
-    document.addEventListener('DOMContentLoaded', () => {
-    
-        const sections = gsap.utils.toArray('section');
-    
-        let scrollTween = gsap.to(sections, {
-            xPercent: -100 * (sections.length - 1),
-            ease: 'none',
-            scrollTrigger: {
-                trigger: '.scroll',
-                pin: true,
-                scrub: 0.5,
-                snap: 1 / (sections.length - 1),
-                start: 'top top',
-                end: 3000,
-            }
-        })
-    
-    })
 
     //WIREFRAMES
 

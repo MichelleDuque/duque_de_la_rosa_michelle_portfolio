@@ -37,7 +37,7 @@ if(empty($email)) {
 
 if(empty($errors)) {
 
-    //insert these values as a new row in the contacts table
+    //insert these values as a new row in the clients table
 
     $query = "INSERT INTO clients (firstname, lastname, email, comments) VALUES('$fname','$lname','$email','$msg')";
 
@@ -56,6 +56,8 @@ $message .= "Email: ".$email."\n\n";
 
 mail($to,$subject,$message);
 
+
+// This will be a modal
 header('Location: received.php');
 
 }
