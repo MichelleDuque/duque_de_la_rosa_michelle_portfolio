@@ -23,10 +23,12 @@
           // console.log(selected);
           const imageContent = document.createElement("img");
           const h3Item = document.createElement("h3");
+          const linkItem = document.createElement("a");
           const buttonItem = document.createElement("button");
           imageContent.src = project.image;
           h3Item.textContent = project.name;
-          buttonItem.textContent = "CLICK HERE"
+          linkItem.href = "project_details.html";
+          buttonItem.textContent = "CLICK HERE";
     
           selectedText.appendChild(imageContent)
           selectedText.appendChild(h3Item);
@@ -35,7 +37,8 @@
 
           selectedText.addEventListener('mouseenter', e => {
             h3Item.textContent = project.description;
-            selectedText.appendChild(buttonItem);
+            selectedText.appendChild(linkItem);
+            linkItem.appendChild(buttonItem);
             h3Item.classList.remove("project-image-text");
             h3Item.classList.add("project-image-text-off");
             buttonItem.classList.remove("project-image-button-inactive");

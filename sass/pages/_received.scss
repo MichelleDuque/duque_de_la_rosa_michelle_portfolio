@@ -1,0 +1,71 @@
+@use '../abstracts/variables' as r;
+
+
+#received{
+    padding: 0;
+}
+
+#text-received{
+    padding-top: 250px;
+}
+
+#received h2{
+    font-size: 53px;
+}
+
+
+#received h3{
+    font-size: 28px;
+    color: r.$body-text-color;
+    font-family: r.$heading-font-family;
+}
+
+#received span{
+    color: r.$body-text-color;
+    font-size: 50px;
+    float: right;
+}
+
+#close-received:hover,
+#close-received:focus {
+    color: r.$primary-color;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (min-width:768px){
+
+    #text-received{
+        padding-top: 300px;
+    }
+
+    #received h2, #received h3{
+        font-size: 61px;
+    }
+
+
+}
+
+@media screen and (min-width:1200px){
+
+    #received h2, #received h3{
+        font-size: 80px;
+    }
+
+    #received span{
+        font-size: 100px;
+    }
+
+}
+
+@media screen and (min-width:1920px){
+
+    #received h2, #received h3{
+        font-size: 120px;
+    }
+
+    #received span{
+        font-size: 150px;
+    }
+
+}

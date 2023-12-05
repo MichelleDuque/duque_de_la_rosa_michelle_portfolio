@@ -33,11 +33,13 @@
 }
 
 
+
 //HOVER
 
 .image-box-project:hover{
 
-    background: radial-gradient(ellipse at 50% 50%, rgba(197, 26, 26, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    background: rgb(146,24,24);
+    background: linear-gradient(90deg, rgba(146,24,24,1) 0%, rgb(209, 63, 63) 50%, rgba(213,42,42,1) 100%);
 
     .image-project{
         opacity: 0.0;
@@ -81,7 +83,7 @@
 
 // Outside link
 
-#title-project{
+.title-project{
     padding: 0;
     // clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
 }
@@ -110,7 +112,7 @@
     color: h.$body-text-color;
 }
 
-//Scroll
+//Gallery
 
 #gallerySection{
     background-color: red;
@@ -120,8 +122,12 @@
 
 
 
+
+
+
+
 @media screen and (min-width:768px){
-    #title-project h2{
+    .title-project h2{
         font-size: 60px;
     }
 
@@ -144,11 +150,11 @@
 
 @media screen and (min-width:1200px){
 
-    #project-section div:nth-of-type(3) {
+    #project-main-info div:nth-of-type(3) {
         order: 3;
       }
 
-    #title-project h2{
+    .title-project h2{
         font-size: 75px;
     }
 
@@ -167,7 +173,7 @@
 
 @media screen and (min-width:1920px){
 
-    #title-project h2{
+    .title-project h2{
         font-size: 100px;
     }
 
