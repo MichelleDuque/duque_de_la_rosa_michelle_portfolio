@@ -18,7 +18,7 @@
         <nav class="box m-col-start-2 m-col-end-10 l-col-start-2 l-col-end-9 xl-col-start-1 xl-col-end-8" id="main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="aboutme.html">ABOUT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
                 <li><a href="projects.html">PROJECTS</a></li>
                 <li><a href="reel.html">REEL</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
@@ -38,7 +38,7 @@
             <div id="burger-con">
                 <ul>
                     <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
                     <li><a href="projects.html">PROJECTS</a></li>
                     <li><a href="reel.html">REEL</a></li>
                     <li><a href="#">CONTACT</a></li>
@@ -56,8 +56,8 @@
             </div>
 
             <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-6 l-col-end-13 xl-col-start-7 xl-col-end-13" id="contact-form">
-                <div id="form-boxes">
-                    <form method="post" action="sendmail.php">
+                <div id="form-boxes" method="post" action="sendmail.php">
+                    <form >
 
                         <label for="first_name"  class="hidden">First Name:</label>
                         <input type="text" name="first_name" id="first_name" placeholder="First Name">
@@ -79,8 +79,18 @@
                     
                         <br><br>
                     
-                        <button type="submit" value="send" class="button-principles" id="button-contact">SEND MESSAGE</button>
+                        <button type="button" value="send" class="button-principles" id="button-contact">SEND MESSAGE</button>
                     </form>
+                </div>            
+            </div>
+
+            <div class="box col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="received-html">
+                <div>
+                <a><span id="close-received-html">&times;</span></a>
+                </div>
+                <div id="text-received-html">
+                    <h2>PERFECT!</h2>
+                    <h3> You Have Chosen Wisely</h3>
                 </div>
             </div>
 
@@ -104,5 +114,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/TextPlugin.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/EasePack.min.js"></script>
     <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.0.1/model-viewer.min.js"></script>
+    <script src="js/contact.js"></script>
 </body>
 </html>

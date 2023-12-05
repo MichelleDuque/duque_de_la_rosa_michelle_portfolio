@@ -6,6 +6,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/2436fc0b94.js" crossorigin="anonymous"></script>
     <title>Michelle Duque</title>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
@@ -49,16 +50,16 @@
 
     <main>
     
-        <div>
+        <div id="project-details">
             <section class="intro">
-                    <div class="grid-con" id="project-section">
+                    <div class="grid-con project-section" id="project-main-info">
                         <h2 class="hidden">Project Section - Michelle Duque</h2>
-                        <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10 xl-col-start-3 xl-col-end-11" id="title-project">
-                            <h2>NAME OF PROJECT</h2>
+                        <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-4 l-col-end-10 xl-col-start-3 xl-col-end-11 title-project">
+                            <h2>EARBUDS</h2>
                         </div>
                         <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-7 xl-col-start-1 xl-col-end-6" id="image-project">
                             <h3 class="hidden">Image of Project</h3>
-                            <img src="images/mokepon.png" alt="Mokepon Project" id="photo-project">
+                            <img src="images/earbuds_main.png" alt="Mokepon Project" id="photo-project">
                         </div>
                         <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-6 xl-col-end-13" id="buttons-project-box">
                             <h3 class="hidden">Buttons to Project</h3>
@@ -66,137 +67,174 @@
                             <button class="button-principles buttons-project" id="button-project2">GITHUB</button>
                         </div>
                         <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-7 l-col-end-12 xl-col-start-6 xl-col-end-13" id="text-project">
-                            <h3 class="hidden">Text Of Project</h3>
-                            <p id="paragraph-project">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 
-                                1500s, when an unknown printer took a galley of type and scrambled it to 
-                                make a type specimen book. It has survived not only five centuries, but also
-                                the leap into electronic typesetting, remaining essentially unchanged. 
-                                <br>
-                                <br>
-                                It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software 
-                                like Aldus PageMaker including versions of Lorem Ipsum.
-                                </p>
+                          <h3 class="hidden">Text Of Project</h3>
+                          <p id="paragraph-project">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                              Lorem Ipsum has been the industry's standard dummy text ever since the 
+                              1500s, when an unknown printer took a galley of type and scrambled it to 
+                              make a type specimen book. It has survived not only five centuries, but also
+                              the leap into electronic typesetting, remaining essentially unchanged. 
+                              <br>
+                              <br>
+                              It was popularised in the 1960s with the release of Letraset sheets containing
+                              Lorem Ipsum passages, and more recently with desktop publishing software 
+                              like Aldus PageMaker including versions of Lorem Ipsum.
+                              </p>
+                      </div>
+                    </div>
+            </section>
+
+            <section  class="grid-con gallery-photos" >
+                <div class="box col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="gallery-project">
+                <section class='box-images'>
+                    <ul class='wrapper'>
+                      <li>
+                        <img src='images/promo_3.png' class="image-wrapper-gallery">
+                      </li>
+                      <li>
+                        <img src='images/promo_6.png' class="image-wrapper-gallery">
+                      </li>
+                      <li>
+                        <img src='images/promo_2.png' class="image-wrapper-gallery">
+                      </li>
+                    </ul>
+                  </section>
+                  <section class='box-images'>
+                    <ul class='wrapper'>
+                      <li>
+                        <img src='images/picture_1.jpg' class="image-wrapper-gallery">
+                      </li>
+                      <li>
+                        <img src='images/x-ray.jpg'class="image-wrapper-gallery">
+                      </li>
+                      <li>
+                        <img src='images/picture_2.jpg' class="image-wrapper-gallery">
+                      </li>
+                    </ul>
+                  </section>
+            </section>
+          
+
+
+
+            <section class="grid-con" id="section-info-details">
+              <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13" id="box-info-details">
+                <div id="details-mobile-view">
+                  <div class="info-mobile-text">
+                    <i class="fa-sharp fa-solid fa-circle-exclamation"></i> 
+                    <h3>PROBLEM</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                  </div>
+                  <div class="info-mobile-text">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <h3>SOLUTION</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                  </div>
+                  <div class="info-mobile-text">
+                    <i class="fa-solid fa-user"></i> 
+                    <h3>ROLE</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                  </div>
+                  <div class="info-mobile-text">
+                    <i class="fa-brands fa-js"></i> 
+                    <h3>LANGUAGE</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                  </div>
+                  <div class="info-mobile-text">
+                    <i class="fa-solid fa-user-group"></i> 
+                    <h3>MEMBERS</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                  </div>
+
+              </div>
+                <div class="tabs">
+                  <div class="tab-header">
+                    <div class="active">
+                      <i class="fa-sharp fa-solid fa-circle-exclamation"></i> Problem
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-lightbulb"></i> Solution
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user"></i> Role
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-timeline"></i>Process
+                    </div>
+                    <div>
+                      <i class="fa-brands fa-js"></i> Language
+                    </div>
+                    <div>
+                      <i class="fa-solid fa-user-group"></i> Members
+                    </div>
+                  </div>
+                  <div class="tab-indicator"></div>
+                  <div class="tab-content">
+                    
+                    <div class="active">
+                      <!-- <i class="fa fa-code"></i> -->
+                      <h3>This is code section</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+                    
+                    <div>
+                      <!-- <i class="fa fa-pencil-square"></i> -->
+                      <h3>This is about section</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+                    
+                    <div>
+                      <!-- <i class="fa fa-bar-chart"></i> -->
+                      <h3>This is services section</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+                    
+                    <div>
+                      <!-- <i class="fa fa-envelope"></i> -->
+                      <h3>This is contact section</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+
+                    <div>
+                      <!-- <i class="fa fa-envelope"></i> -->
+                      <h3>This is contact section</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+
+                    <div>
+                      <!-- <i class="fa fa-envelope"></i> -->
+                      <h3>This is contact section</h3>
+                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis eum similique quisquam officiis neque, cumque dignissimos architecto nisi totam sapiente eos et illum laborum atque vero ea perferendis consectetur veritatis.</p>
+                    </div>
+                    
+                  </div>
                 </div>
             </section>
 
-            
-    
-            <section class="saitama character" class="grid-con" >
-                <!-- <div class="block"></div> -->
-                <div class="grid-con" id="project-section">
+            <section class="grid-con">
+              <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13" id="reveal-div">
+                <div id="reveal-mobile-view">
+                  <div><img src="images/promo_3_text.png" alt=""></div>
+                </div>
+              <div class="image-box">
+                <div class="outer">
+                 <div class="inner"><img src="images/promo_3_text.png" alt=""></div>
+                   </div>
+                 </div>
+                 
+               </div>
+              </div>
+              </section>
+
+
+
+
+                <section class="grid-con project-section" id="wireframes">
                     <h2 class="hidden">Project Section - Michelle Duque</h2>
-                    <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-3 l-col-end-11 xl-col-start-2 xl-col-end-12" id="title-project">
-                        <h2>PROJECT OVERVIEW</h2>
-                    </div>
-                     <div class="box box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-7 xl-col-start-1 xl-col-end-6" id="text-problem">
-                        <h3 class="hidden">Text Of Project</h3>
-                        <h4>PROBLEM</h4>
-                            <p id="paragraph-project">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                            Lorem Ipsum has been the industry's standard dummy text ever since the 
-                            1500s, when an unknown printer took a galley of type and scrambled it to 
-                            make a type specimen book. It has survived not only five centuries, but also
-                            the leap into electronic typesetting, remaining essentially unchanged. 
-                            </p>
-                        <h4>SOLUTION</h4>
-                            <p>
-                                It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software 
-                                like Aldus PageMaker including versions of Lorem Ipsum.
-                            </p>
-                        <h4>MY ROLE</h4>
-                        <p>
-                                It was popularised in the 1960s with the release of Letraset sheets containing
-                                Lorem Ipsum passages, and more recently with desktop publishing software 
-                                like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-            </div>
-                    <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-8 l-col-end-13 xl-col-start-7 xl-col-end-13" id="image-problem">
-                        <h3 class="hidden">Image of Project</h3>
-                        <img src="images/mokepons_mokepon_capipepo_attack.png" alt="Mokepon Project" id="photo-problem">
-                    </div>
-            </section>
-    
-            <section class="genos character">
-
-                <div class="grid-con" id="project-section">
-                    <h2 class="hidden">Project Section - Michelle Duque</h2>
-                    <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-3 l-col-end-11 xl-col-start-2 xl-col-end-12" id="title-project">
-                        <h2>WORKING PROCESS</h2>
-                    </div>
-
-                     <div class="box box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13 timeline-carousel" id="box-timeline">
-                        <div id="timeline">
-  
-                            <div class="tl-item">
-                              
-                              <div class="tl-year">
-                                <p>WEEK 1</p>
-                              </div>
-                          
-                              <div class="tl-content">
-                                <h1>Lorem ipsum dolor sit</h1>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
-                              </div>
-                          
-                            </div>
-                          
-                            <div class="tl-item">
-                            
-                              
-                              <div class="tl-year">
-                                <p>WEEK 2</p>
-                              </div>
-                          
-                              <div class="tl-content">
-                                <h1>Vestibulum laoreet lorem</h1>
-                                <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.</p>
-                              </div>
-                          
-                            </div>
-                          
-                            <div class="tl-item">
-                            
-                              
-                              <div class="tl-year">
-                                <p>WEEK 4</p>
-                              </div>
-                          
-                              <div class="tl-content">
-                                <h1>Phasellus mauris elit</h1>
-                                <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium sed.</p>
-                              </div>
-                          
-                            </div>
-                          
-                            <div class="tl-item">
-                              
-                              
-                              <div class="tl-year">
-                                <p>WEEK 3</p>
-                              </div>
-                          
-                              <div class="tl-content">
-                                <h1>Mauris vitae nunc elem</h1>
-                                <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor elit.</p>
-                              </div>
-                            </div>
-                          </div>
-                    </div>
-          
-            </section>
-
-
-            <section class="other character">
-
-                <div class="grid-con" id="project-section">
-                    <h2 class="hidden">Project Section - Michelle Duque</h2>
-                    <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-3 l-col-end-11 xl-col-start-2 xl-col-end-12" id="title-project">
+                    <!-- <div class="box col-span-full m-col-start-3 m-col-end-11 l-col-start-3 l-col-end-11 xl-col-start-2 xl-col-end-12 title-project">
                         <h2>WIREFRAMES</h2>
-                    </div>
+                    </div> -->
 
-                     <div class="box box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13 timeline-carousel" id="box-cards">
+                     <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13 timeline-carousel" id="box-cards">
                         <div class="gallery-images">
                             <div class="gallery image-1"></div>
                             <div class="gallery image-2"></div>
@@ -212,7 +250,6 @@
                                 High Fidelity
                             </button>
                         </div>
-                    </div>
           
             </section>
     
@@ -221,6 +258,8 @@
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/details.js"></script>
+    <script src="js/gallery.js"></script>
     <script src="js/scroll.js"></script>
     <!-- <script src="js/main.js"></script> -->
 </body>
