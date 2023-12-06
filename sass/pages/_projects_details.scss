@@ -84,8 +84,10 @@
 }
 
 .text-process ul li{
-   font-weight: bold;
+  font-family: p.$heading-font-family;
+   font-weight: lighter;
    margin-bottom: 6px;
+   text-transform: uppercase;
 }
 
 
@@ -455,36 +457,15 @@
 
         //Role
         .text-process h3{
-          font-size: 40px;
+          font-size: 50px;
         }
 
-        .text-process p{
-          font-size: 17px;
+        .text-process ul li{
+          font-size: 15px;
         }
 
-        //Target Audience
-        .target-audience h2{
-          text-align: left;
-          font-size: 70px;
-        }
-        
-        .target-audience p{
-          font-size: 17px;
-        }
 
-        //Languages
 
-        #language-box{
-          margin-top: 30px;
-        }
-
-        #title-language h2{
-          font-size: 70px;
-        }
-
-        #languages-icons i{
-          font-size: 90px;
-        }
        
             //Tabs
 
@@ -536,6 +517,16 @@
 
   
   @media screen and (min-width:1920px){
+
+    
+        //Role
+        .text-process h3{
+          font-size: 70px;
+        }
+
+        .text-process ul li{
+          font-size: 20px;
+        }
 
 
 
