@@ -1,14 +1,9 @@
-  
-  /* slider thumb */
-  input[type="range"]::-moz-range-thumb {
-    background-color: #808080;
-    border: none;
-    border-radius: 0.5rem;
-    height: 1rem;
-    width: 1rem;
-  }
-  
-  input[type="range"]:focus::-moz-range-thumb{
-    outline: 3px solid #808080;
-    outline-offset: 0.125rem;
-  }
+@use '../abstracts/variables' as r;
+
+:root {
+  --plyr-color-main:  #CF0A0A;
+  --plyr-control-icon-size: 20px;
+  --plyr-control-radius: 25px;
+  --plyr-font-family: 'Oswald', sans-serif;
+  --plyr-controls-spacing: 20px;
+}

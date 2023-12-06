@@ -93,6 +93,8 @@
 }
 
 #buttons-project-box{
+    margin-bottom: 30px;
+    margin-top: 0;
     padding: 0;
     text-align: center;
 }
@@ -150,10 +152,45 @@
 
 @media screen and (min-width:1200px){
 
-    #project-main-info div:nth-of-type(3) {
-        order: 3;
+    #project-main-info{
+        padding-bottom: 30px;
+    }
+    #box-info-principal{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+      #text-project{
+        margin: 0;
       }
 
+      #text-project p{
+        text-align: center;
+    }
+
+    #box-info-principal{
+        margin: 0;
+        display: flex;
+        flex-flow: column-reverse; 
+        justify-content: space-between;
+    }
+
+    #buttons-project-box{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+
+
+
+    #button-project1{
+        margin-right: 7px;
+    }
+    
+
+    // #buttons-project-box{
+    //     order: -1;
+    // }
     .title-project h2{
         font-size: 75px;
     }
@@ -210,7 +247,6 @@
 
 @media screen and (min-width:1200px) {
 
-    
 
     .image-box-project{
         margin: 0;

@@ -1,11 +1,11 @@
 @use '../abstracts/variables' as p;
 
 #project-details section{
-  margin-bottom: 70px;
+  margin-bottom: 10px;
 }
 
 #project-overview h2{
-  color: black;;
+  color: black;
 }
 
 .scrolling-content h3{
@@ -56,80 +56,38 @@
 
 
 
-//Working Process
+//Role
 
-// #process-box{
-//   background-color: p.$primary-color;
-// }
-
-
-#process-title h2{
-  color: p.$body-text-color;
+.details-box{
+  background-color:  p.$primary-color;
 }
 
-#timeline-rectangle {
-    display: flex;
-    flex-direction: column;
-    background-color: #F05941;
-  }
-  
-  .timeline-square {
-    font-family: p.$heading-font-family;
-    border:solid;
-    border-color: p.$body-text-color;
-    // transform: translate3d(0, 0, 0);
-    position: relative;
-    width: 100%;
-    height: 300px;
-    // min-height: 500px;
-    color: p.$body-text-color;
+#role-box{
+   align-items: center;
+}
 
+.text-process h3{
+   text-align: center;
+   color: p.$body-text-color;
+   font-family: p.$heading-font-family;
+   font-size: 30px;
+   text-decoration: underline;
+   
+}
 
-  
-    &:hover {
-      .text-square {
-        opacity: 1;
-        transform: translateX(0);
-        transition: all 0.80s ease 0.4s;
-      }
-    }
-  }
-  
-  .text-square {
-    transform:  translateY(20px);
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
-    top: 30%;
-    opacity: 0;
-    
-    h4 {
-      font-family: p.$heading-font-family;
-      color: p.$body-text-color;
-      font-size: 15px;
-    }
+.text-process ul{
+   padding: 0;
+   list-style-type: none;
+   text-align: center;
+   color: p.$body-text-color;
 
-    p{
-      font-family: p.$body-font-family;
-      font-size: 10px;
-    }
-  }
-  
-  .week {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    
-    h3 {
-      font-family: p.$heading-font-family;
-      font-size: 17px;
-    }
-  }
-  
-  
+}
+
+.text-process ul li{
+   font-weight: bold;
+   margin-bottom: 6px;
+}
+
 
 
   //GALLERY
@@ -156,6 +114,28 @@
     }
   }
 
+
+  //Target Audience
+
+  
+
+#audience-box{
+  align-items: center;
+}
+
+.target-audience{
+  padding: 0;
+}
+
+.target-audience h2{
+  color: p.$body-text-color;
+  font-size: 30px;
+}
+
+.target-audience p{
+  color: p.$body-text-color;
+}
+
   //Wireframe
 
   #buttons-wireframes{
@@ -170,6 +150,8 @@
   .button-principles{
     margin-top: 10px;
   }
+
+
   
 // Mobile tab
 
@@ -199,6 +181,35 @@
   font-size: 14px;
 }
 
+//Languages
+
+
+
+#title-language{
+  margin: 0;
+}
+
+
+#title-language h2{
+  color: p.$body-text-color;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+#languages-icons{
+  margin: 0;
+  padding-top: 0;
+}
+
+#languages-icons i{
+  padding-right: 10px;
+  color: p.$body-text-color;
+  font-size: 30px;
+}
+
+#languages-icons i:last-child{
+  padding-right: 0;
+}
 
 
 //Mobile Reveal Image
@@ -211,9 +222,13 @@
   display: none;
 }
 
+#image-details{
+  padding: 0;
+}
 
 #reveal-mobile-view{
-  margin-top: 30px;
+  align-items: center;
+  padding: 0;
 }
 
 
@@ -231,6 +246,10 @@
   // }
   
   @media screen and (min-width:768px){
+
+    // #box-info-principal{
+    //   align-items: center;
+    // }
 
     
     //Working Process
@@ -283,13 +302,22 @@
     padding: 0;
   }
 
+  //Target Audience
+
+  .target-audience h2{
+    font-size: 60px;
+  }
+  .target-audience p{
+   text-align: left;
+  }
+
     //GALLERY
   
 .gallery-images {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 60vh;
+  height: 400px;
 }
 
 .gallery {
@@ -307,6 +335,7 @@
   }
 }
 
+
 #buttons-wireframes{
   margin-top: 30px;
   margin-bottom: 10px;
@@ -317,6 +346,23 @@
 }
   
 
+//Languages
+
+
+#title-language h2{
+  font-size: 50px;
+}
+
+
+#languages-icons i{
+  padding-right: 30px;
+  font-size: 60px;
+}
+
+#languages-icons i:last-child{
+  padding-right: 0;
+}
+
   //Tabs
 
 #details-mobile-view{
@@ -325,11 +371,12 @@
 
 .tabs {
   display: block;
-  height:360px;
+  height:260px;
   background:#f5f5f5;
   box-shadow:3px 3px 5px 3px #ac1616;
   text-align: left;
-  // overflow:hidden;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .tabs .tab-header {
   float:left;
@@ -401,45 +448,52 @@
 
 
 
+
+
   @media screen and (min-width:1200px){
 
 
-        //Reveal Image
-
-        #reveal-mobile-view{
-          display: none;
+        //Role
+        .text-process h3{
+          font-size: 40px;
         }
 
-        .image-box{
-          display: block;
+        .text-process p{
+          font-size: 17px;
+        }
+
+        //Target Audience
+        .target-audience h2{
+          text-align: left;
+          font-size: 70px;
         }
         
-        .outer {
-          position: relative;
-          max-width: 1920px;
-          width: 100%;
-          height: 100vh;
-          clip-path: polygon(35% 0%, 65% 0, 65% 100%, 35% 100%);
+        .target-audience p{
+          font-size: 17px;
         }
 
-        .inner {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background-image: url(images/promo_3_text.png);
-            background-repeat: no-repeat;
-            background-size: cover;
-            /* background-position: center center; */
+        //Languages
+
+        #language-box{
+          margin-top: 30px;
         }
 
+        #title-language h2{
+          font-size: 70px;
+        }
 
+        #languages-icons i{
+          font-size: 90px;
+        }
+       
             //Tabs
 
+            #section-info-details{
+              margin-top: 30px;
+            }
+
         .tabs{
-          height: 420px;
+          height: 290px;
         }
     
 
@@ -483,38 +537,7 @@
   
   @media screen and (min-width:1920px){
 
-            //Reveal Image
 
-            #reveal-mobile-view{
-              display: none;
-            }
-
-
-        //Reveal Image
-
-        .image-box{
-          display: block;
-        }
-        
-        .outer {
-          position: relative;
-          width: 100%;
-          height: 100vh;
-          clip-path: polygon(35% 0%, 65% 0, 65% 100%, 35% 100%);
-        }
-
-        .inner {
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          // background-image: url(images/promo_3_text.png);
-          //   background-repeat: no-repeat;
-          //   background-size: cover;
-            /* background-position: center center; */
-        }
 
         //Tabs
 
