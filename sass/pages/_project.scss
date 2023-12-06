@@ -7,7 +7,6 @@
     text-align: center;
     margin-bottom: 20px;
     background-color: black;
-    cursor: pointer;
 }
 
 .image-project{
@@ -28,9 +27,6 @@
     width: 100%
 }
 
-#text-4 h3{
-    top: 30%;
-}
 
 
 
@@ -46,15 +42,19 @@
     }
 }
 
+// }
+
 .project-image-text-off{
     font-family: h.$heading-font-family;
-    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px;
+    font-size: 14px;
     color: h.$body-text-color;
     // color: black;
     left: 0;
     position:absolute;
     text-align:center;
-    top: 20%;
+    top: 10%;
     width: 100%
 }
 
@@ -74,6 +74,10 @@
     cursor: pointer;
 }
 
+.project-image-button-active:hover{
+    background-color: h.$accent-color;
+    cursor: pointer;
+}
 
 .project-image-button-inactive{
     display: none;
@@ -85,7 +89,10 @@
 
 .title-project{
     padding: 0;
-    // clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.title-project h2{
+    font-size: 60px;
 }
 
 #image-project{
@@ -93,6 +100,8 @@
 }
 
 #buttons-project-box{
+    margin-bottom: 30px;
+    margin-top: 0;
     padding: 0;
     text-align: center;
 }
@@ -126,9 +135,18 @@
 
 
 
+
 @media screen and (min-width:768px){
+        
     .title-project h2{
-        font-size: 60px;
+        font-size: 75px;
+    }
+    .project-image-text{
+        font-size: 35px;
+    }
+
+    .project-image-text-off{
+        font-size: 17px;
     }
 
     .buttons-project{
@@ -137,60 +155,7 @@
         font-size: 40px;
     }
 
-    #text-project p{
-        font-size: 17px;
-    }
 
-    #text-4 h3{
-        top: 40%;
-    }
-
-}
-
-
-@media screen and (min-width:1200px){
-
-    #project-main-info div:nth-of-type(3) {
-        order: 3;
-      }
-
-    .title-project h2{
-        font-size: 75px;
-    }
-
-    #image-project{
-        width: 100%;
-    }
-
-
-    #photo-project{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-    }
-
-}
-
-@media screen and (min-width:1920px){
-
-    .title-project h2{
-        font-size: 100px;
-    }
-
-    #text-project p{
-        font-size: 23px;
-    }
-
-    .buttons-project{
-        width: 300px;
-        height: 94px;
-        font-size: 50px;
-    } 
-
-}
-
-
-@media screen and (min-width:768px) {
     #projects-group{
         display: flex;
         flex-direction: row;
@@ -204,17 +169,104 @@
         margin: 20px;
     }
 
+
 }
 
 
+@media screen and (min-width:1200px){
 
-@media screen and (min-width:1200px) {
+    .title-project h2{
+        font-size: 100px;
+    }
+
+    #project-main-info{
+        padding-bottom: 30px;
+    }
+    #box-info-principal{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+      #text-project{
+        margin: 0;
+      }
+
+      #text-project p{
+        text-align: center;
+    }
+
+    #box-info-principal{
+        margin: 0;
+        display: flex;
+        flex-flow: column-reverse; 
+        justify-content: space-between;
+    }
+
+    #buttons-project-box{
+        text-align: center;
+        margin-bottom: 10px;
+        margin-top: auto;
+    }
+
+
+
+    #button-project1{
+        margin-right: 7px;
+    }
+    
+    .project-image-text{
+        font-size: 38px;
+    }
+
+    #image-project{
+        width: 100%;
+    }
+
+
+    #photo-project{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .project-image-text-off{
+        font-size: 18px;
+        padding: 7px;
+    }
 
     
-
     .image-box-project{
         margin: 0;
         width: calc(100% / 3);
     }
 
 }
+
+@media screen and (min-width:1920px){
+
+    #project-title h2{
+        font-size: 120px;
+    }
+
+    .project-image-text{
+        font-size: 65px;
+    }
+
+    .project-image-text-off{
+        font-size: 30px;
+    }
+
+
+    .buttons-project{
+        width: 300px;
+        height: 94px;
+        font-size: 50px;
+    } 
+
+}
+
+
+
+
+
+

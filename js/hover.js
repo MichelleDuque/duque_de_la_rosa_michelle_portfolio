@@ -6,12 +6,12 @@
     const buttonImage = document.querySelector(".project-image-button")
     
     const projects = [
-        {name: "MOKEPON", description: "On this game ", image:"images/mokepon_mobile_project.jpg"},
-        {name: "DR NUT", description: "HOVER DR NUT", image:"images/dr_nut_mobile_project.jpg"},
-        {name: "BACK OF THE NET", description: "HOVER BACK OF THE NER", image:"images/back_of_the_net_mobile_project.jpg"},
-        {name: "BARRANQUILLA CARNIVAL", description: "HOVER BARRANQUILLA", image:"images/barranquilla_mobile_project.jpg"},
-        {name: "STAR WARS", description: "HOVER STAR WARS", image:"images/star_wars__mobile_project.jpg"},
-        {name: "LOPEZ FARM", description: "HOVER LOPEZ FARM", image:"images/lopez_farm__mobile_project.jpg"},
+        {name: "MOKEPON", description: "Web game created using HTML, CSS, JavaScript and Node.js. Choose your favorite pet and face other Mokepones in epic water, fire and earth fights.", image:"images/mokepon_mobile_project.jpg"},
+        {name: "DR NUT", description: "Dynamic website of Dr Nut drink from the New Orleans based World Bottling Company. Created by using HTML, Javascript and HTML.", image:"images/dr_nut_mobile_project.jpg"},
+        {name: "BACK OF THE NET", description: "Back of The Net is a soccer store focused on European and national football teams. CSS and HTML were used.", image:"images/back_of_the_net_mobile_project.jpg"},
+        {name: "CARNIVAL", description: "The following game represents the most popular carnival in Colombia, you're going to be able to listen one their songs, also this drag and drop game was build with HTML, CSS and Javascript.", image:"images/barranquilla_mobile_project.jpg"},
+        {name: "EARBUDS", description: "Promotional Site of Rock Revolution Earbuds which features interactive information, the earbuds were created using Cinema 4D to model, texture, light, and animate the design.", image:"images/earbuds.png"},
+        {name: "LOPEZ FARM", description: "Inventory website created for the company Lopez Farm, It was created using React, Javascript, CSS and HTML.", image:"images/lopez_farm__mobile_project.jpg"},
 
     ];
 

@@ -16,10 +16,12 @@
       background-color: r.$secondary-color;
       padding: 5px;
       box-sizing: border-box;
+      padding: 0;
   }
 
 #text-received-html{
     padding-top: 250px;
+    text-align: center;
 }
 
 #received-html h2{
@@ -49,7 +51,7 @@
 @media screen and (min-width:768px){
 
     #text-received-html{
-        padding-top: 300px;
+        padding-top: 200px;
     }
 
     #received-html h2, #received-html h3{
