@@ -7,16 +7,14 @@
 
 #received-html {
     display: none;
-      /* Add any styling you want for the model */
       position: fixed;
       top: 0;
       left: 0;
-      width: 100%;
-      height: 100%;
+      width: 100vw;
+      height: 100vh;
       background-color: r.$secondary-color;
       padding: 5px;
       box-sizing: border-box;
-      padding: 0;
   }
 
 #text-received-html{
