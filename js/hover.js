@@ -1,9 +1,4 @@
 (() => {
-    //Projects Info Hover
-
-    const boxImage = document.querySelector(".image-box-project")
-    const ImageText = document.querySelector(".project-image-text")
-    const buttonImage = document.querySelector(".project-image-button")
     
     const projects = [
         {name: "MOKEPON", description: "Web game created using HTML, CSS, JavaScript and Node.js. Choose your favorite pet and face other Mokepones in epic water, fire and earth fights.", image:'images/mokepon_project_vv6wql_c_scale,w_430.png', imageSize: "100vw", imagesrcset: "images/mokepon_project_vv6wql_c_scale,w_200.png 200w, images/mokepon_project_vv6wql_c_scale,w_430.png 430w"},
@@ -20,7 +15,6 @@
         projects.forEach((project, index) => {
 
           let selectedText = document.querySelector(`#text-${index+1}`);
-          // console.log(selected);
           const imageContent = document.createElement("img");
           const h3Item = document.createElement("h3");
           const linkItem = document.createElement("a");
@@ -63,12 +57,6 @@
 
     loadText();
 
-
-    
-
-    // projectImageText.addEventListener("mouseout", function() {
-    //     projectImageText.textContent = "cat"
-    //   })
 
 
 })();

@@ -9,11 +9,11 @@
     //WIREFRAMES
 
     const wireframes = [
-        {name: "Wireframe 1",  background:'url("images/wireframe1.png")', background_color:'url("images/wireframe_color_1.webp")'},
-        {name: "Wireframe 2", background:'url("images/wireframe2.jpeg")', background_color:'url("images/wireframe_color_2.png")'},
-        {name: "Wireframe 3", background:'url("images/wireframe3.png")', background_color:'url("images/wireframe_color_3.webp")'},
-        {name: "Wireframe 4", background:'url("images/wireframe4.png")', background_color:'url("images/wireframe_color_4.png")'},
-        {name: "Wireframe 5", background:'url("images/wireframe5.png")', background_color:'url("images/wireframe_color_5.JPG")'},
+        {name: "Wireframe 1",  background:'url("images/wireframe_1.jpeg")', background_color:'url("images/wireframecolor_1.png")'},
+        {name: "Wireframe 2", background:'url("images/wireframe_2.jpeg")', background_color:'url("images/wireframecolor_2.png")'},
+        {name: "Wireframe 3", background:'url("images/wireframe_3.jpeg")', background_color:'url("images/wireframecolor_3.png")'},
+        {name: "Wireframe 4", background:'url("images/wireframe_4.jpeg")', background_color:'url("images/wireframecolor_4.png")'},
+        {name: "Wireframe 5", background:'url("images/wireframe_5.jpeg")', background_color:'url("images/wireframecolor_5.png")'},
 
     ];
 

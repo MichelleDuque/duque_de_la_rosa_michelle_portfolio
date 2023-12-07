@@ -15,6 +15,7 @@
     <script defer type="module" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script defer type="module" src="js/reel.js"></script>
     <script defer type="module" src="js/gsap.js"></script>
+    <script defer type="module" src="js/burger.js"></script>
 </head>
 <body>
     <h1 class="hidden">Portfolio</h1>
@@ -23,10 +24,10 @@
         <nav class="box m-col-start-2 m-col-end-10 l-col-start-2 l-col-end-8 xl-col-start-1 xl-col-end-7" id="main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">PROJECTS</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
                 <li><a href="reel.html">REEL</a></li>
-                <li><a href="#">CONTACT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </nav>
 
@@ -36,24 +37,20 @@
 
         <div class="box col-start-4 col-end-5" id="burger-nav">
             <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/burger.svg" alt="hamburger menu icon">
-            </label>
-            <div id="burger-con">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="#">PROJECTS</a></li>
-                    <li><a href="reel.html">REEL</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+			<button class="hamburger">
+				<img src="images/open_menu.svg" alt="Burger Menu" id="hamburger-image">
+			</button>  
         </div>
+        <nav class="burger_menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="reel.html">REEL</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </nav>
     </header>
 
-    <main id="main-project">
-        <div class="grid-con">
+    <main id="reel-project" class="grid-con" >
             <section class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13" id="player-container">
                 <video controls poster="images/placeholder.png">
                     <source src="video/video.mp4" type="video/mp4">
@@ -61,7 +58,6 @@
                     <p>You're using a very old browser, that doesn't support video playback</p>
                 </video>
             </section>
-        </div>
 
     </main>
 </body>

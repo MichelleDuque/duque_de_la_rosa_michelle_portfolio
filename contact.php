@@ -10,6 +10,11 @@
     <title>Michelle Duque</title>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script defer  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+    <script defer  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script defer type="module" src="js/gsap.js"></script>
+    <script defer type="module" src="js/contact.js"></script>
+    <script defer type="module" src="js/burger.js"></script>
 </head>
 <body>
     <h1 class="hidden">Portfolio</h1>
@@ -31,20 +36,17 @@
 
         <div class="box col-start-4 col-end-5" id="burger-nav">
             <h2 class="hidden">Main Navigation</h2>
-            <input type="checkbox" id="hamburger">
-            <label for="hamburger">
-                <img src="images/burger.svg" alt="hamburger menu icon">
-            </label>
-            <div id="burger-con">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">ABOUT</a></li>
-                    <li><a href="projects.html">PROJECTS</a></li>
-                    <li><a href="reel.html">REEL</a></li>
-                    <li><a href="#">CONTACT</a></li>
-                </ul>
-            </div>
+			<button class="hamburger">
+				<img src="images/open_menu.svg" alt="Burger Menu" id="hamburger-image">
+			</button>  
         </div>
+        <nav class="burger_menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="reel.html">REEL</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </nav>
     </header>
 
     <main>
@@ -100,9 +102,5 @@
             </div>
 
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script src="js/gsap.js"></script>
-    <script src="js/contact.js"></script>
 </body>
 </html>
