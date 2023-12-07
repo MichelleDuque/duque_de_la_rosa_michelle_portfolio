@@ -1,5 +1,9 @@
 @use '../abstracts/variables' as p;
 
+// .box-images ul li img{
+//   width: 100%;
+// }
+
 #project-details section{
   margin-bottom: 10px;
 }
@@ -229,6 +233,8 @@
 }
 
 #reveal-mobile-view{
+  display: flex;
+  justify-content: center;
   align-items: center;
   padding: 0;
 }
