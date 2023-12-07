@@ -1,64 +1,78 @@
 @use '../abstracts/variables' as b;
 
+
 #burger-nav{
-    height: 42px;
-    padding: 0;
+  padding: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+  
+.hamburger {
+
+	position: relative;
+	display: block;
+	cursor: pointer;
+  	z-index: 100;
+	appearance: none;
+	background: none;
+	outline: none;
+	border: none;
+}
+
+.hamburger img{
+	height: 50px;
+  	width: 100%;
 }
 
 
-#burger-nav label img{
-    height: 42px;
-    transition: all .7s ease;
-    cursor: pointer;
-    width: 100%;
+.burger_menu {
+	position: fixed;
+	top: 0;
+	left: 100%;
+	width: 100%;
+	min-height: 100vh;
+	display: block;
+	z-index: 98;
+	background-color: b.$primary-color;
+	padding-top: 120px;
+	transition: 0.4s;
+	list-style-type: none
 }
 
-#burger-nav input, #burger-con{
-    display: none;
+.burger_menu.is-active {
+	left: 0;
 }
 
-#burger-nav input:checked ~ #burger-con {
-    display: block;
-    position: absolute;
-    transform: translateX(-237px);
-    background-color: b.$primary-color;
-    width: 320px;
-    z-index:    10;
-}
-
-#burger-nav input:checked ~ label img{
-    transform: rotate(90deg);
-}
-
-
-#burger-nav ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    font-family: b.$heading-font-family;
+.burger_menu a {
+    border-radius: 10px;
+	display: block;
+	width: 100%;
+	max-width: 200px;
+	margin: 0 auto 16px;
+	text-align: center;
+	padding: 12px 12px;
     font-size: 20px;
-    color: b.$accent-color;
+    font-family: b.$heading-font-family;
+	background-color: b.$secondary-color;
+
+	color: #FFF;
+	text-decoration: none;
 }
 
-#burger-nav li a {
-    display: block;
-    text-decoration:none;
-    padding: 15px 0 15px 0;
-    text-align: center;
-    color: #ffffff;
+.burger_menu a:hover {
+	background-color: b.$accent-color;
 }
 
-#burger-nav li {
-    border-bottom: 1px solid #efefef;
-}
+@media (min-width: 768px) {
+	.burger_menu {
+		display: none;
+	}
 
-#burger-nav li:first-child {
-    border-top: 1px solid #efefef;
+	.hamburger {
+		display: none;
+	}
 }
-
-#burger-nav:last-child {
-    margin-bottom: 10px;
-}
+  
 
 
 

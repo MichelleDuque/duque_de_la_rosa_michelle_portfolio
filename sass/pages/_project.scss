@@ -92,7 +92,7 @@
 }
 
 .title-project h2{
-    font-size: 60px;
+    font-size: 31px;
 }
 
 #image-project{
@@ -139,7 +139,7 @@
 @media screen and (min-width:768px){
         
     .title-project h2{
-        font-size: 75px;
+        font-size: 60px;
     }
     .project-image-text{
         font-size: 35px;
@@ -161,7 +161,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
-        justify-content:center;
+        // justify-content:center;
     }
 
 
@@ -178,7 +178,7 @@
 @media screen and (min-width:1200px){
 
     .title-project h2{
-        font-size: 100px;
+        font-size: 76px;
     }
 
     #project-main-info{
@@ -246,9 +246,13 @@
 
 @media screen and (min-width:1920px){
 
-    #project-title h2{
+    .title-project h2{
         font-size: 120px;
     }
+
+    // #project-title h2{
+    //     font-size: 120px;
+    // }
 
     .project-image-text{
         font-size: 65px;

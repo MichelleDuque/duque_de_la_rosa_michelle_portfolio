@@ -1,6 +1,5 @@
 (() => {
 
-        //About Me Hover
 
         const hobbies = [
             {name: "Anfield Stadium", description: "I'm a Liverpool and Junior de Barranquilla supporter, that's mainly what you will find on my social media."},
