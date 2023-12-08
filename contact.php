@@ -94,10 +94,10 @@
                     </p>
                 </div>
                 <div id="social-media">
-                    <i class="fa-brands fa-instagram"></i>
-                    <i class="fa-brands fa-twitter"></i>
-                    <i class="fa-brands fa-linkedin-in"></i>
-                    <i class="fa-brands fa-github"></i>
+                    <a href="https://www.instagram.com/michprogrammer/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://twitter.com/Mich_McCartney"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/michelle-duque-de-la-rosa-95ab0481/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://github.com/MichelleDuque"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
 

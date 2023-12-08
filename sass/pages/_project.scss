@@ -195,6 +195,7 @@
 
       #text-project p{
         text-align: center;
+        font-size: 16px;
     }
 
     #box-info-principal{
@@ -250,9 +251,11 @@
         font-size: 120px;
     }
 
-    // #project-title h2{
-    //     font-size: 120px;
-    // }
+    
+    #text-project p{
+        font-size: 27px;
+        line-height: 35px;
+    }
 
     .project-image-text{
         font-size: 65px;

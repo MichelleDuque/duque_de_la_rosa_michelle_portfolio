@@ -27,10 +27,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
     color: rgba(0, 0, 0, 0.8);
     display: block;
-    font-size: 18px;
     font-weight: 700;
-    right: calc(10% + 1em);
-    max-width: 100px;
+    right: calc(7% + 1em);
+    max-width: 80px;
     overflow-wrap: break-word;
     padding: 0.5em 1em;
     position: absolute;
@@ -43,11 +42,11 @@
     color: #333;
     line-height: 22px;
     font-weight: 300;
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .HotspotAnnotation h2 {
-    font-size: 18px;
+    font-size: 12px;
     margin-bottom: 5px;
   }
 
@@ -124,6 +123,21 @@
       height: 400px;
     }
 
+    .HotspotAnnotation{
+      right: calc(7% + 1em);
+      max-width: 90px;
+      padding: 0.5em 1em;
+    }
+
+
+    .HotspotAnnotation p {
+      font-size:11px;
+    }
+  
+    .HotspotAnnotation h2 {
+      font-size: 14px;
+    }
+
   }
 
   @media screen and (min-width:1200px) {
@@ -132,6 +146,7 @@
       height: 550px;
     }
 
+
   }
 
 
@@ -139,6 +154,19 @@
 
     #model{
       height: 800px;
+    }
+
+    .HotspotAnnotation{
+      max-width: 110px;
+    }
+
+    .HotspotAnnotation p {
+      font-size:14px;
+    }
+  
+    .HotspotAnnotation h2 {
+      font-size: 17px;
+      margin-bottom: 5px;
     }
 
   }
