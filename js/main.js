@@ -12,7 +12,7 @@
     let mainTL = gsap.timeline({repeat: -1}).pause()
     
     phrases.forEach(phrase =>{
-        let tl = gsap.timeline({repeat: 1, yoyo:true, repeatDelay:1.2}) // yoyo allows the tween to go back and forth
+        let tl = gsap.timeline({repeat: 1, yoyo:true, repeatDelay:1.2}) 
         tl.to(".text", {duration: 1, text: phrase})
         mainTL.add(tl)
     })

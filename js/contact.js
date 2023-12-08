@@ -17,10 +17,6 @@
       received.style.display = 'none';
     }
 
-    
-
-  
-
    //Event Listener
     buttonContact.addEventListener("click", showModel);
     receivedclose.addEventListener("click", hideModel);

@@ -40,7 +40,6 @@
             h3Item.classList.add("project-image-text-off");
             buttonItem.classList.remove("project-image-button-inactive");
             buttonItem.classList.add("project-image-button-active");
-            // console.log(pItem.textContent)
           });
 
           selectedText.addEventListener('mouseleave', e => {
@@ -49,7 +48,6 @@
             h3Item.classList.add("project-image-text");
             buttonItem.classList.remove("project-image-button-active");
             buttonItem.classList.add("project-image-button-inactive");
-            // console.log(pItem.textContent)
           });
           
         })

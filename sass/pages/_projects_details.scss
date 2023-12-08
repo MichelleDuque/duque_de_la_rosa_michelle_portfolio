@@ -220,7 +220,7 @@
 
 //Mobile Reveal Image
 
-.tabs{
+.detail-box{
   display: none;
 }
 
@@ -241,7 +241,9 @@
 
 
 
-
+#p-text-details{
+  white-space: pre-wrap;
+}
 
 
 
@@ -371,13 +373,13 @@
   padding-right: 0;
 }
 
-  //Tabs
+  //Details
 
 #details-mobile-view{
   display: none;
 }
 
-.tabs {
+.detail-box {
   display: block;
   height:260px;
   background:#f5f5f5;
@@ -386,7 +388,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.tabs .tab-header {
+.detail-box .menu-title {
   float:left;
   width:150px;
   height:100%;
@@ -396,13 +398,13 @@
 }
 
 
-.tabs .tab-content {
+.detail-box .details-text {
   position:relative;
   height:100%;
   overflow:hidden;
 }
 
-.tabs .tab-header > div {
+.detail-box .menu-title > div {
   height:50px;
   line-height:50px;
   font-size:17px;
@@ -415,20 +417,19 @@
 }
 
 
-.tabs .tab-header > div:hover,
-.tabs .tab-header > div.active {
+.detail-box .menu-title > div:hover,
+.detail-box .menu-title > div.active {
   color:p.$primary-color;
 }
 
-.tabs .tab-content > div {
+#box-text {
   position:absolute;
-  text-align:center;
-  padding:40px 20px;
-  top:-150%;
-  transition:all 300ms ease-in-out;
+  padding:40px 40px;
 }
 
-.tab-content h3{
+
+
+.details-text h3{
   font-size: 18px;
   text-transform: uppercase;
   font-family: p.$heading-font-family;
@@ -436,16 +437,16 @@
   margin-bottom: 15px;
 }
 
-.tab-content p{
+.details-text p{
   font-size: 14px;
 }
 
-.tabs .tab-content > div.active {
+.detail-box .details-text > div.active {
   top:0px;
 
 }
 
-.tabs .tab-header div i {
+.detail-box .menu-title div i {
   display:inline-block;
   margin-left:10px;
   margin-right:5px;
@@ -473,24 +474,24 @@
 
 
        
-            //Tabs
+            //Details
 
             #section-info-details{
               margin-top: 30px;
             }
 
-        .tabs{
+        .detail-box{
           height: 290px;
         }
     
 
-        .tabs .tab-header {
+        .detail-box .menu-title {
           width:200px;
         }
 
 
 
-        .tabs .tab-header > div {
+        .detail-box .menu-title > div {
           height:60px;
           font-size:20px;
         }
@@ -498,12 +499,12 @@
 
 
 
-        .tab-content h3{
+        .details-text h3{
           font-size: 30px;
           margin-bottom: 20px;
         }
 
-        .tab-content p{
+        .details-text p{
           font-size: 18px;
         }
 
@@ -536,21 +537,21 @@
 
 
 
-        //Tabs
+        //Details
 
-        .tabs{
+        .detail-box{
           height: 620px;
           margin-bottom: 100px;
         }
     
 
-        .tabs .tab-header {
+        .detail-box .menu-title {
           width:350px;
         }
 
 
 
-        .tabs .tab-header > div {
+        .detail-box .menu-title > div {
           height:100px;
           font-size:34px;
         }
@@ -558,12 +559,12 @@
 
 
 
-        .tab-content h3{
+        .details-text h3{
           font-size: 60px;
           margin-bottom: 30px;
         }
 
-        .tab-content p{
+        .details-text p{
           font-size: 28px;
           line-height: 50px;
         }
