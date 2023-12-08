@@ -1,8 +1,5 @@
 @use '../abstracts/variables' as p;
 
-// .box-images ul li img{
-//   width: 100%;
-// }
 
 #project-details section{
   margin-bottom: 10px;
@@ -12,47 +9,10 @@
   color: black;
 }
 
-.scrolling-content h3{
-  color: white;
-}
-
-.scrolling-content img{
- height: 100px;
-}
 
 
 
-#text-problem{
-    font-family: p.$body-font-family;
-}
-
-#text-problem h4{
-    font-size: 20px;
-    color:black;
-    text-align: left;
-    font-weight: bold;
-}
-
-
-#text-problem p{
-    font-size: 17px;
-    color: p.$body-text-color;
-    text-align: left;
-}
-
-
-#photo-problem{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-}
-
-//Difficulties
-
-#text-problem h2{
-  text-align: left;
-}
-//Gallery
+//Slide Images
 
 .wrapper {
   display: flex;
@@ -60,7 +20,11 @@
 
 
 
-//Role
+//Details of project
+
+#p-text-details{
+  white-space: pre-wrap;
+}
 
 .details-box{
   background-color:  p.$primary-color;
@@ -120,28 +84,6 @@
     }
   }
 
-
-  //Target Audience
-
-  
-
-#audience-box{
-  align-items: center;
-}
-
-.target-audience{
-  padding: 0;
-}
-
-.target-audience h2{
-  color: p.$body-text-color;
-  font-size: 30px;
-}
-
-.target-audience p{
-  color: p.$body-text-color;
-}
-
   //Wireframe
 
   #buttons-wireframes{
@@ -159,7 +101,7 @@
 
 
   
-// Mobile tab
+// Mobile Details project
 
 
 
@@ -187,271 +129,151 @@
   font-size: 14px;
 }
 
-//Languages
-
-
-
-#title-language{
-  margin: 0;
-}
-
-
-#title-language h2{
-  color: p.$body-text-color;
-  font-size: 30px;
-  text-decoration: underline;
-}
-
-#languages-icons{
-  margin: 0;
-  padding-top: 0;
-}
-
-#languages-icons i{
-  padding-right: 10px;
-  color: p.$body-text-color;
-  font-size: 30px;
-}
-
-#languages-icons i:last-child{
-  padding-right: 0;
-}
-
-
-//Mobile Reveal Image
-
 .detail-box{
   display: none;
 }
 
-.image-box{
-  display: none;
-}
+//Promotional Image
+
 
 #image-details{
   padding: 0;
 }
 
-#reveal-mobile-view{
+#still-image{
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 0;
 }
 
-
-
-#p-text-details{
-  white-space: pre-wrap;
-}
-
-
-
-
-
-  //Wireframes
-
-  // #wireframes{
-  //   background-color: p.$accent-color;
-  // }
   
   @media screen and (min-width:768px){
 
-    // #box-info-principal{
-    //   align-items: center;
-    // }
-
     
-    //Working Process
+    //Top Info
 
     .project-section{
       padding: 0;
     }
 
-#process-title h2{
-  font-size: 60px;
-}
+    //Details of project
 
-#timeline-rectangle {
-    flex-direction: row;
-  }
-  
-  .timeline-square {
-    width: 25%;
-    height: 400px;
-    overflow: hidden;
-    transition: width 0.2s ease;
-
-  
-
-
-  
-    &:hover {
-      width: 30% !important;
+    #details-mobile-view{
+      display: none;
     }
-  }
-  
-  .text-square {
     
-    h4 {
-      font-size: 15px;
+    .detail-box {
+      display: block;
+      height:260px;
+      background:#f5f5f5;
+      box-shadow:3px 3px 5px 3px #ac1616;
+      text-align: left;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
-
-    p{
-      font-size: 10px;
+    .detail-box .menu-title {
+      float:left;
+      width:150px;
+      height:100%;
+      border-right:2px solid #a11616;
+      padding-top:30px;
+      padding-bottom:30px;
     }
-  }
-  
-  .week {
     
-    h3 {
-      font-size: 20px;
+    
+    .detail-box .details-text {
+      position:relative;
+      height:100%;
+      overflow:hidden;
     }
-  }
-  #box-info-details{
-    padding: 0;
-  }
-
-  //Target Audience
-
-  .target-audience h2{
-    font-size: 60px;
-  }
-  .target-audience p{
-   text-align: left;
-  }
+    
+    .detail-box .menu-title > div {
+      height:50px;
+      line-height:50px;
+      font-size:17px;
+      font-weight:600;
+      font-family: p.$heading-font-family;
+      text-transform: uppercase;
+      color:p.$secondary-color;
+      cursor:pointer;
+      padding-left:10px;
+    }
+    
+    
+    .detail-box .menu-title > div:hover,
+    .detail-box .menu-title > div.active {
+      color:p.$primary-color;
+    }
+    
+    #box-text {
+      position:absolute;
+      padding:15px 15px;
+    }
+    
+    
+    
+    .details-text h3{
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: p.$heading-font-family;
+      color: p.$primary-color;
+      margin-bottom: 15px;
+    }
+    
+    .details-text p{
+      font-size: 14px;
+    }
+    
+    .detail-box .details-text > div.active {
+      top:0px;
+    
+    }
+    
+    .detail-box .menu-title div i {
+      display:inline-block;
+      margin-left:10px;
+      margin-right:5px;
+    }
+    
+  
 
     //GALLERY
   
-.gallery-images {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  height: 400px;
-}
+    .gallery-images {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 400px;
+    }
 
-.gallery {
-  flex: 1;
-  height: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: none;
-  transition: flex 0.7s ease;
-  border: solid;
-  border-color: #ff4823;
+    .gallery {
+      flex: 1;
+      height: 100%;
+      background-position: center;
+      background-size: cover;
+      background-repeat: none;
+      transition: flex 0.7s ease;
+      border: solid;
+      border-color: #ff4823;
+      
+      &:hover{
+        flex: 5;
+      }
+    }
+
+      //Wireframe 
+
+      #buttons-wireframes{
+        margin-top: 30px;
+        margin-bottom: 10px;
+      }
+
+      #buttons-wireframes button{
+        width: 200px;
+      }
   
-  &:hover{
-    flex: 5;
-  }
-}
-
-
-#buttons-wireframes{
-  margin-top: 30px;
-  margin-bottom: 10px;
-}
-
-#buttons-wireframes button{
-  width: 200px;
-}
-  
-
-//Languages
-
-
-#title-language h2{
-  font-size: 50px;
-}
-
-
-#languages-icons i{
-  padding-right: 30px;
-  font-size: 60px;
-}
-
-#languages-icons i:last-child{
-  padding-right: 0;
-}
-
-  //Details
-
-#details-mobile-view{
-  display: none;
-}
-
-.detail-box {
-  display: block;
-  height:260px;
-  background:#f5f5f5;
-  box-shadow:3px 3px 5px 3px #ac1616;
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.detail-box .menu-title {
-  float:left;
-  width:150px;
-  height:100%;
-  border-right:2px solid #a11616;
-  padding-top:30px;
-  padding-bottom:30px;
-}
-
-
-.detail-box .details-text {
-  position:relative;
-  height:100%;
-  overflow:hidden;
-}
-
-.detail-box .menu-title > div {
-  height:50px;
-  line-height:50px;
-  font-size:17px;
-  font-weight:600;
-  font-family: p.$heading-font-family;
-  text-transform: uppercase;
-  color:p.$secondary-color;
-  cursor:pointer;
-  padding-left:10px;
-}
-
-
-.detail-box .menu-title > div:hover,
-.detail-box .menu-title > div.active {
-  color:p.$primary-color;
-}
-
-#box-text {
-  position:absolute;
-  padding:40px 40px;
-}
-
-
-
-.details-text h3{
-  font-size: 18px;
-  text-transform: uppercase;
-  font-family: p.$heading-font-family;
-  color: p.$primary-color;
-  margin-bottom: 15px;
-}
-
-.details-text p{
-  font-size: 14px;
-}
-
-.detail-box .details-text > div.active {
-  top:0px;
-
-}
-
-.detail-box .menu-title div i {
-  display:inline-block;
-  margin-left:10px;
-  margin-right:5px;
-}
-
   
   }
 
@@ -462,7 +284,7 @@
   @media screen and (min-width:1200px){
 
 
-        //Role
+        //Languages
         .text-process h3{
           font-size: 50px;
         }
@@ -474,11 +296,12 @@
 
 
        
-            //Details
+        //Details
 
-            #section-info-details{
+        #section-info-details{
               margin-top: 30px;
-            }
+        }
+
 
         .detail-box{
           height: 290px;
@@ -537,7 +360,7 @@
 
 
 
-        //Details
+        //Details of project
 
         .detail-box{
           height: 620px;
@@ -557,8 +380,6 @@
         }
 
 
-
-
         .details-text h3{
           font-size: 60px;
           margin-bottom: 30px;
@@ -569,16 +390,13 @@
           line-height: 50px;
         }
 
- 
+        //Wireframe
 
-
-    //Wireframe
-
-    #buttons-wireframes  button{
-    font-size: 50px;
-    width: 300px;
-    height: 94px;
-    margin-left: 10px;
+        #buttons-wireframes  button{
+        font-size: 50px;
+        width: 300px;
+        height: 94px;
+        margin-left: 10px;
   }
   
 }

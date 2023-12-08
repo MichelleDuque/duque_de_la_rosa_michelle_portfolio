@@ -31,7 +31,6 @@
   
       infoBoxes.forEach((infoBox, index) => {
         let selected = document.querySelector(`#hotspot-${index+1}`);
-        // console.log(selected);
         const titleItem = document.createElement("h2");
         const textItem = document.createElement("p");
   

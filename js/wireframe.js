@@ -24,8 +24,6 @@
           let selectedPhoto = document.querySelector(`.image-${index+1}`);
           let buttonColor = document.querySelector("#button_color")
           let button = document.querySelector("#button_nocolor")
-          console.log(selectedPhoto)
-          console.log(wireframe.background)
 
           selectedPhoto.style.backgroundImage = wireframe.background;
 

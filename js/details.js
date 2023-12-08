@@ -14,8 +14,6 @@ const audience = document.querySelector("#audience-menu");
     {name: "AUDIENCE", description: "The target audience for Rock Evolution Earbuds is comprised of passionate people who share a profound appreciation for rock music, from fans to musicians. Individuals who need dependable headphones that can match the intensity of their performances and provide the highest level of precision in hearing every note and drumming."},
 ];
 
-console.log(menu);
-
 function deleteActive(){
   problem.classList.remove("active");
   solution.classList.remove("active");
