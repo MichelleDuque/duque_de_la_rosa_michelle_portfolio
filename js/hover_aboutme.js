@@ -10,7 +10,6 @@
         function loadAboutMe(){
           hobbies.forEach((hobbie, index) => {
             let selected = document.querySelector(`#about-${index+1}`);
-            console.log(selected);
             const paboutme = document.createElement("p");
 
             selected.addEventListener('mouseenter', e => {
