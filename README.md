@@ -1,8 +1,12 @@
-# Portfolio
+# Michelle Duque De La Rosa - Portfolio
 
 I am Michelle Paola Duque De La Rosa, I was born in Barranquilla, Colombia and now I am located in London, Ontario. I'm a passionate developer, my favorite one is Python, but I adore JavaScript, Java, and PHP; you know what I can't choose because I love learning new programming languages all the time.
 
-Look through my portfolio to view the projects I have created. I like using code to make ideas come to life, whether they are for dynamic JavaScript creations or new Python applications. 
+👩‍💻 I focus on Front-end web development. I have extensive experience using HTML, CSS, and JS, and I also know the workflow of some Front-End frameworks like Next.js and React.
+
+📧 Contact me: [Linkedin](https://www.linkedin.com/in/michelle-duque-de-la-rosa-95ab0481/?locale=en_US)
+
+
 
 ## Contributing
 
