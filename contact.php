@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/2436fc0b94.js" crossorigin="anonymous"></script>
     <title>Michelle Duque</title>
+    <link rel="Michelle Duque fav icon" type="image/svg" href="images/logo.svg"/>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script defer  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
@@ -41,11 +42,13 @@
 			</button>  
         </div>
         <nav class="burger_menu">
+            <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
             <li><a href="projects.html">PROJECTS</a></li>
             <li><a href="reel.html">REEL</a></li>
             <li><a href="contact.html">CONTACT</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -100,7 +103,7 @@
                     <a href="https://github.com/MichelleDuque"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-
+            </section>
     </main>
 </body>
 </html>
