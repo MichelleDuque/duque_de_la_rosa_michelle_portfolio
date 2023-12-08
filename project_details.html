@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/2436fc0b94.js" crossorigin="anonymous"></script>
     <title>Michelle Duque</title>
+    <link rel="Michelle Duque fav icon" type="image/svg" href="images/logo.svg"/>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <script defer src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
@@ -44,11 +45,13 @@
     </button>  
       </div>
       <nav class="burger_menu">
+        <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="about.html">ABOUT</a></li>
           <li><a href="projects.html">PROJECTS</a></li>
           <li><a href="reel.html">REEL</a></li>
           <li><a href="contact.html">CONTACT</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -77,8 +80,8 @@
                         <div ></div>
                         <div  id="buttons-project-box">
                             <h3 class="hidden">Buttons to Project</h3>
-                            <a href=""><button class="button-principles buttons-project" id="button-project1">LIVE SITE</button></a>
-                            <a href="https://github.com/MichelleDuque/duque_de_rosa_michelle_Earbud"><button class="button-principles buttons-project" id="button-project2">GITHUB</button></a>
+                            <button class="button-principles buttons-project" id="button-project1">LIVE SITE</button>
+                            <button onclick="location.href='https://github.com/MichelleDuque/duque_de_rosa_michelle_Earbud'" class="button-principles buttons-project" id="button-project2">GITHUB</button>
                         </div>
                         <div id="text-project">
                           <h3 class="hidden">Text Of Project</h3>
@@ -91,6 +94,7 @@
                     </div>
                     </div>
             </section>
+            </div>
 
 
             <section class="grid-con details-box" id="role-box">
@@ -119,8 +123,10 @@
             </section>
 
             <section  class="grid-con gallery-photos" >
+              <h2 class="hidden">Sequence of Earbus photos</h2>
                 <div class="box col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="gallery-project">
                 <section class='box-images'>
+                    <h2 class="hidden">Images of Earbuds</h2>
                     <ul class='wrapper'>
                       <li>                
                         <img
@@ -152,6 +158,7 @@
                     </ul>
                   </section>
                   <section class='box-images'>
+                    <h2 class="hidden">Images of Earbuds</h2>
                     <ul class='wrapper'>
                       <li>                                 
                         <img
@@ -182,7 +189,8 @@
                       </li>
                     </ul>
                   </section>
-            </section>
+                </div>
+                </section>
           
             <section class="grid-con" id="section-info-details">
               <div class="col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13" id="box-info-details">
@@ -232,9 +240,11 @@
                     </div>                  
                   </div>
                 </div>
+              </div>
             </section>
 
         <section class="grid-con" id="image-details">
+            <h2 class="hidden">Promotional Earbuds Photo</h2>
           <div class="col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="reveal-div">
             <div id="reveal-mobile-view">
                 <img
@@ -250,17 +260,17 @@
                     alt="Red Earbuds">
                 </div>
            </div>
-          </div>
           </section>
 
 
 
 
             <section class="grid-con project-section" id="wireframes">
-                <h2 class="hidden">Project Section - Michelle Duque</h2>
+                <h2 class="hidden">Low and high fidelity wireframes</h2>
 
                  <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12 xl-col-start-1 xl-col-end-13 timeline-carousel" id="box-cards">
                     <div class="gallery-images">
+                      <h2 class="hidden">Wireframes Photos</h2>
                         <div class="gallery image-1"></div>
                         <div class="gallery image-2"></div>
                         <div class="gallery image-3"></div>
@@ -275,7 +285,7 @@
                             High Fidelity
                         </button>
                     </div>
-      
+                  </div>
         </section>
     </main>
 </body>
