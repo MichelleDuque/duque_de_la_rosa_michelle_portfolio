@@ -27,13 +27,16 @@
 
           selectedPhoto.style.backgroundImage = wireframe.background;
 
-           buttonColor.addEventListener('click', e => {
+          function backgroundHighFidelity() {
             selectedPhoto.style.backgroundImage = wireframe.background_color;
-          });
+          };
 
-          button.addEventListener('click', e => {
+          function backgroundLowFidelity() {
             selectedPhoto.style.backgroundImage = wireframe.background;
-          });
+          };
+
+          buttonColor.addEventListener("click", backgroundHighFidelity);
+          button.addEventListener("click", backgroundLowFidelity);
 
         })
     }
