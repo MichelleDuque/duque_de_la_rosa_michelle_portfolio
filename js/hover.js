@@ -32,7 +32,7 @@
           imageContent.classList.add("image-project");
           h3Item.classList.add("project-image-text");
 
-          selectedText.addEventListener('mouseenter', e => {
+          function hoverProject() {
             h3Item.textContent = project.description;
             selectedText.appendChild(linkItem);
             linkItem.appendChild(buttonItem);
@@ -40,15 +40,18 @@
             h3Item.classList.add("project-image-text-off");
             buttonItem.classList.remove("project-image-button-inactive");
             buttonItem.classList.add("project-image-button-active");
-          });
+          };
 
-          selectedText.addEventListener('mouseleave', e => {
+           function infoProject(){
             h3Item.textContent = project.name;
             h3Item.classList.remove("project-image-text-off");
             h3Item.classList.add("project-image-text");
             buttonItem.classList.remove("project-image-button-active");
             buttonItem.classList.add("project-image-button-inactive");
-          });
+          };
+
+          selectedText.addEventListener("mouseleave", infoProject);
+          selectedText.addEventListener("mouseenter", hoverProject);
           
         })
     }

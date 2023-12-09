@@ -12,7 +12,7 @@
             let selected = document.querySelector(`#about-${index+1}`);
             const paboutme = document.createElement("p");
 
-            selected.addEventListener('mouseenter', e => {
+            function hoverPhotoAboutme() {
     
                 paboutme.textContent = hobbie.description;
         
@@ -20,12 +20,16 @@
         
                 paboutme.classList.add("aboutme-p");
                 paboutme.classList.remove("aboutme-p-inactive");
-            });
+            };
 
-            selected.addEventListener('mouseleave', e => {
+            function onlyPhotoAboutme() {
                 paboutme.classList.remove("aboutme-p");
                 paboutme.classList.add("aboutme-p-inactive");
-              });
+              };
+
+
+            selected.addEventListener("mouseleave", onlyPhotoAboutme);
+            selected.addEventListener("mouseenter", hoverPhotoAboutme);
       
           })
       
