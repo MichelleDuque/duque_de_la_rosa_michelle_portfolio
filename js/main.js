@@ -12,7 +12,6 @@ import { details_php } from "./modules/details_php.js";
 import { gallery } from "./modules/gallery.js";
 import { hover_aboutme } from "./modules/hover_aboutme.js";
 import { scrollmenu } from "./modules/scrollmenu.js";
-import { contact } from "./modules/contact.js";
 import { add_contact } from "./modules/add_contact.js";
 
  //Call burger and Gsap  as it is used on all pages
@@ -42,8 +41,6 @@ import { add_contact } from "./modules/add_contact.js";
       hover_aboutme();
       scrollmenu();
    }else if (document.body.dataset.page === "contact"){
-      contact();
-   }else if (document.body.dataset.page === "contact-ajax"){
       add_contact();
    }
 
