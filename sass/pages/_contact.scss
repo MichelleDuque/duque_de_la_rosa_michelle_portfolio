@@ -14,6 +14,7 @@
    justify-self: center;
 }
 
+
 #form-boxes form input, #form-boxes form textarea{
     font-family: c.$heading-font-family;
     font-size: 15px;
@@ -81,7 +82,21 @@
     margin-left: -20px;
   }
 
+  #feedback {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+    margin-top: 10px;
+    height: 100px;
+    flex-direction: column;
+    font-weight: bold;
+}
 
+    #feedback p {
+        font-size: 11px;
+        margin: 0px;
+        color: #ffffff;
+    }
 
 
 

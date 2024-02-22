@@ -10,8 +10,6 @@
 }
 
 
-
-
 //Slide Images
 
 .wrapper {
@@ -151,7 +149,16 @@
   
   @media screen and (min-width:768px){
 
-    
+
+
+    .content-box {
+    display: none;
+      }
+
+    .problem{
+        display: block;
+    }
+
     //Top Info
 
     .project-section{
@@ -207,7 +214,7 @@
       color:p.$primary-color;
     }
     
-    #box-text {
+    .box-text {
       position:absolute;
       padding:15px 15px;
     }
