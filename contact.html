@@ -15,14 +15,14 @@
     <script defer  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
     <script type="module" src="js/main.js"></script>
 </head>
-<body data-page="contact">
+<body data-page="contact">>
     <h1 class="hidden">Portfolio</h1>
     <header id="main-header" class="grid-con">
 
         <nav class="box m-col-start-2 m-col-end-10 l-col-start-2 l-col-end-9 xl-col-start-1 xl-col-end-8" id="main-nav">
             <ul>
                 <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="aboutme.html">ABOUT</a></li>
                 <li><a href="projects.html">PROJECTS</a></li>
                 <li><a href="reel.html">REEL</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
@@ -60,15 +60,15 @@
 
             <div class="box col-span-full m-col-start-2 m-col-end-12 l-col-start-6 l-col-end-13 xl-col-start-7 xl-col-end-13" id="contact-form">
                 <div id="form-boxes">
-                    <form >
+                    <form  id="contactForm">
 
-                        <label for="first_name"  class="hidden">First Name:</label>
-                        <input type="text" name="first_name" id="first_name" placeholder="First Name">
+                        <label for="firstname"  class="hidden">First Name:</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="First Name">
                     
                     <br><br>
                     
-                        <label for="last_name"  class="hidden">Last Name: </label>
-                        <input type="text" name="last_name" id="last_name" placeholder="Last Name">
+                        <label for="lastname"  class="hidden">Last Name: </label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Last Name">
                     
                         <br><br>
                     
@@ -77,14 +77,15 @@
                     
                         <br><br>
                     
-                        <label for="message" class="hidden">Comments: </label>
-                        <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                        <label for="comments" class="hidden">Comments: </label>
+                        <textarea name="comments" id="comments" placeholder="Your Message"></textarea>
                     
                         <br><br>
                     
-                        <button type="button" value="send" class="button-principles" id="button-contact">SEND MESSAGE</button>
+                        <button type="submit" value="send" class="button-principles" id="button-contact">SEND MESSAGE</button>
                     </form>
-                </div>            
+                    <section id="feedback"><p>*Please fill out all required sections</p></section>
+                </div>
             </div>
 
             <div class="col-span-full m-col-span-full l-col-span-full xl-col-span-full" id="received-html">
@@ -111,7 +112,9 @@
                     <a href="https://github.com/MichelleDuque"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
-        </section>
+            </section>
+
+            
     </main>
 </body>
 </html>
