@@ -1,11 +1,13 @@
-(() => {
-const menu = document.querySelectorAll(".menu-title div");
-const title = document.querySelector("#title-text-details");
-const pdetails = document.querySelector("#p-text-details");
-const problem = document.querySelector("#problem-menu");
-const solution = document.querySelector("#solution-menu");
-const process = document.querySelector("#process-menu");
-const audience = document.querySelector("#audience-menu");
+export function details(){ 
+
+
+    const menu = document.querySelectorAll(".menu-title div");
+    const title = document.querySelector("#title-text-details");
+    const pdetails = document.querySelector("#p-text-details");
+    const problem = document.querySelector("#problem-menu");
+    const solution = document.querySelector("#solution-menu");
+    const process = document.querySelector("#process-menu");
+    const audience = document.querySelector("#audience-menu");
     
   const details = [
     {name: "PROBLEM", description: "The purpose of this project was to make an earbuds promotional page with creative methods, using a software to create the necessary elements which will used on the website. Those resources are an X-ray where the client would be able to observe the interior aspects, an animation showing the charging case, a 3D model and still images of the earbuds."},
@@ -58,6 +60,4 @@ process.addEventListener("click", loadTextProcess);
 
 
 
-
-
-})();
+}

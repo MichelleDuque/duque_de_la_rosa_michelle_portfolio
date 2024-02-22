@@ -1,6 +1,5 @@
-(() => {
-
-gsap.registerPlugin(ScrollTrigger);
+export function gallery(){
+    gsap.registerPlugin(ScrollTrigger);
 
 
 
@@ -23,5 +22,4 @@ gsap.registerPlugin(ScrollTrigger);
 
 
   });
-
-})();
+}

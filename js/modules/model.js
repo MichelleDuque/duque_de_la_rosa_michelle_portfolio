@@ -1,4 +1,4 @@
-(() => {
+export function model(){
 
     const model = document.querySelector("#model");
     const hotspots = document.querySelectorAll(".Hotspot");
@@ -63,5 +63,5 @@
       hotspot.addEventListener("mouseover", showInfo);
       hotspot.addEventListener("mouseout", hideInfo);
     });
-  })();
-  
+
+}
