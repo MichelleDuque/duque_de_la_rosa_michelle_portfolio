@@ -61,6 +61,7 @@
 
 
 .project-image-button-active{
+    display: block;
     border: none;
     font-family: h.$heading-font-family;
     font-size: 23px;
@@ -93,6 +94,7 @@
 
 .title-project h2{
     font-size: 31px;
+    text-transform: uppercase;
 }
 
 #image-project{
