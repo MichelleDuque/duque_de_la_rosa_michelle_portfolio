@@ -1,5 +1,6 @@
-(()=>{
-	const form = document.querySelector("#contactForm");
+export function add_contact(){  
+
+    const form = document.querySelector("#contactForm");
     const feedBack = document.querySelector("#feedback");
     const received = document.querySelector("#received-html");
     const main = document.querySelector("main");
@@ -63,4 +64,4 @@
     receivedclose.addEventListener("click", hideModel);
 
 
-})();
+}

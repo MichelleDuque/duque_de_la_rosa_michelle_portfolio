@@ -1,5 +1,5 @@
-(() => {
-    
+export function projects_hover_html(){
+
     const projects = [
         {name: "MOKEPON", description: "Web game created using HTML, CSS, JavaScript and Node.js. Choose your favorite pet and face other Mokepones in epic water, fire and earth fights.", image:'images/mokepon_project_vv6wql_c_scale,w_430.png', imageSize: "100vw", imagesrcset: "images/mokepon_project_vv6wql_c_scale,w_200.png 200w, images/mokepon_project_vv6wql_c_scale,w_430.png 430w"},
         {name: "DR NUT", description: "Dynamic website of Dr Nut drink from the New Orleans based World Bottling Company. Created by using HTML, Javascript and HTML.", image:'images/dr_nut_mobile_project_rhbpgo_c_scale,w_280.jpg', imageSize: "100vw", imagesrcset:"images/dr_nut_mobile_project_rhbpgo_c_scale,w_200.jpg 200w, images/dr_nut_mobile_project_rhbpgo_c_scale,w_280.jpg 280w"},
@@ -58,6 +58,4 @@
 
     loadText();
 
-
-
-})();
+}

@@ -1,10 +1,10 @@
-(() => {
+export function contact(){  
 
-  //Variables
-  const buttonContact = document.querySelector("#button-contact");
-  const received = document.querySelector("#received-html");
-  const receivedclose = document.querySelector("#close-received-html");
-  const main = document.querySelector("main");
+    //Variables
+    const buttonContact = document.querySelector("#button-contact");
+    const received = document.querySelector("#received-html");
+    const receivedclose = document.querySelector("#close-received-html");
+    const main = document.querySelector("main");
 
 
   //Functions 
@@ -21,6 +21,6 @@
     buttonContact.addEventListener("click", showModel);
     receivedclose.addEventListener("click", hideModel);
 
-        
-
-})();
+      
+    
+}

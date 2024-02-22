@@ -13,11 +13,9 @@
     <link href="css/main.css" rel="stylesheet">
     <script defer  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script defer  src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-    <script defer type="module" src="js/gsap.js"></script>
-    <script defer type="module" src="js/contact.js"></script>
-    <script defer type="module" src="js/burger.js"></script>
+    <script type="module" src="js/main.js"></script>
 </head>
-<body>
+<body data-page="contact">
     <h1 class="hidden">Portfolio</h1>
     <header id="main-header" class="grid-con">
 
