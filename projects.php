@@ -31,7 +31,7 @@ $stmt->execute();
             <ul>
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="about.html">ABOUT</a></li>
-                <li><a href="projects.html">PROJECTS</a></li>
+                <li><a href="projects.php">PROJECTS</a></li>
                 <li><a href="reel.html">REEL</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
@@ -51,7 +51,7 @@ $stmt->execute();
             <ul>
             <li><a href="index.html">HOME</a></li>
             <li><a href="about.html">ABOUT</a></li>
-            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="projects.php">PROJECTS</a></li>
             <li><a href="reel.html">REEL</a></li>
             <li><a href="contact.html">CONTACT</a></li>
             </ul>
