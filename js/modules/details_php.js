@@ -1,7 +1,4 @@
 export function details_php(){
-    const menu = document.querySelectorAll(".menu-title div");
-    const title = document.querySelector("#title-text-details");
-    const pdetails = document.querySelector("#p-text-details");
     const problem = document.querySelector("#problem-menu");
     const solution = document.querySelector("#solution-menu");
     const process = document.querySelector("#process-menu");

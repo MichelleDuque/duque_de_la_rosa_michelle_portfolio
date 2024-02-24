@@ -11,13 +11,11 @@ export function add_contact(){
         event.preventDefault();
         const url = "adduser.php";
         const thisform = event.currentTarget;
-        //console.log(thisform.elements.lname.value);
         const formdata = 
         "firstname=" + thisform.elements.firstname.value +
         "&lastname=" + thisform.elements.lastname.value +
         "&email=" + thisform.elements.email.value +
         "&comments=" + thisform.elements.comments.value;
-        //console.log(formdata);
 
         fetch(url, {
             method: "POST",
