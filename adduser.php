@@ -12,26 +12,26 @@
 
     $lastname = mysqli_real_escape_string($connection, $_POST['lastname']);
     if ($lastname == NULL) {
-        $errors[] = "Last name field is empty.";
+        $errors[] = "Last name field is empty";
     }
 
     $firstname = mysqli_real_escape_string($connection, $_POST['firstname']);
     if ($firstname == NULL) {
-        $errors[] = "First name field is empty.";
+        $errors[] = "First name field is empty";
     }
 
     $comments = mysqli_real_escape_string($connection, $_POST['comments']);
     if ($comments == NULL) {
-        $errors[] = "Message field is empty.";
+        $errors[] = "Message field is empty";
     }
 
     $email = $_POST['email'];
     if ($email == NULL) {
-        $errors[] = "Email field is empty.";
+        $errors[] = "Email field is empty";
     }
 
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors[] = "\"" . $email . "\" is not a valid email address.";
+        $errors[] = "\"" . $email . "\" is not a valid email address";
     }
 
     $errcount = count($errors);
