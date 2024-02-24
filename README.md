@@ -9,6 +9,24 @@ I am Michelle Paola Duque De La Rosa, I was born in Barranquilla, Colombia and n
 ▶️ Visit the live website: http://michelleduque.com/
 
 
+# Technologies Used
+
+🔵 HTML5
+
+🔵 CSS3
+
+🔵 JavaScript (ES6)
+
+🔵 SCSS
+
+🔵 PHP
+
+🔵 GSAP
+
+🔵 AJAX
+
+🔵 PLYR
+
 # Content
 
 Below are some of the projects I've worked on that you can find in my portfolio:
